@@ -1,0 +1,7 @@
+#We are performing a signal strength scan with 500 points in between 0.5 X (-2 sigma) to 2 X (2 sigma)
+#2500 0.532 14.767 0.0237
+#3000 0.368 11.300 0.0182
+3500 0.321 9.382 0.0151
+4000 0.310 9.291 0.0150
+4500 0.308 9.403 0.0152
+#Customary comment at EOF
