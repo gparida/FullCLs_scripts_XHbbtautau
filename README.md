@@ -36,7 +36,7 @@ cd FullCLs_scripts_XHbbtautau/BTagVetoRegionForGraviton/Run2_Unblinding_forAppro
 ### Command usage:
 ### source submit_condor_fullCLs.sh <config_file> <remote_workspace_path_scp_from_uwlogin> <UW login user name>
 
-## Example for Spin-2 Graviton - Please run the following command:
+## Example for Spin-2 Graviton - Please run the following command (Please use/replace in the command your uwlogin username instead of "parida" which is shown in the example.):
 
 ```bash
 source submit_condor_fullCLs_splitbatches.sh mass_grid_config_GravitonforApproval.txt /afs/hep.wisc.edu/user/parida/public/HHbbtt_Analysis_Scripts/StatisticalToolsCombine/CMSSW_11_3_4/src/HiggsAnalysis/CombinedLimit/FinalizingResultsForPreApp/BTagVetoRegionForGraviton/UNBLINDED_RESULTS/Run2_unblinded_May5/workspaces_run2 parida
