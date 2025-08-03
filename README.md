@@ -34,7 +34,7 @@ cd FullCLs_scripts_XHbbtautau/BTagVetoRegionForGraviton/Run2_Unblinding_forAppro
 ### IMPORTANT: Please check the contents of mass_grid_config_GravitonforApproval.txt. The commented mass points (starting with "#") will not be submitted to Condor. Please change that accordingly to which mass points you want to submit the jobs for..
 
 ### Command usage:
-### source submit_condor_fullCLs.sh <config_file> <remote_workspace_path_scp_from_uwlogin> <UW login user name>
+### source submit_condor_fullCLs_splitbatches.sh <config_file> <remote_workspace_path_scp_from_uwlogin> <UW login user name>
 
 ## Example for Spin-2 Graviton - Please run the following command (Please use/replace in the command your uwlogin username instead of "parida" which is shown in the example.):
 
