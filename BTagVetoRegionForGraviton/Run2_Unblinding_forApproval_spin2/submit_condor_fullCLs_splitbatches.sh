@@ -68,7 +68,7 @@ while read -r line; do
                 -m 125 \
                 --job-mode condor \
                 --task-name condor-m${MASS}_s${SEED} \
-                --sub-opts=$'+JobFlavour = "tomorrow"\nlog = /dev/null\noutput = /dev/null\nerror = /dev/null' \ 
+                --sub-opts=$'+JobFlavour = "tomorrow"\nlog = /dev/null\noutput = /dev/null\nerror = /dev/null' \
                 --rMax=1000 \
                 --rMin=-1000 \
                 --fullBToys
