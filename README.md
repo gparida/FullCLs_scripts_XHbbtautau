@@ -39,10 +39,10 @@ cd FullCLs_scripts_XHbbtautau/BTagVetoRegionForGraviton/Run2_Unblinding_forAppro
 ## Example for Spin-2 Graviton - Please run the following command (Please use/replace in the command your uwlogin username instead of "parida" which is shown in the example.):
 
 ```bash
-source submit_condor_fullCLs_splitbatches.sh mass_grid_config_GravitonforApproval.txt /afs/hep.wisc.edu/user/parida/public/HHbbtt_Analysis_Scripts/StatisticalToolsCombine/CMSSW_11_3_4/src/HiggsAnalysis/CombinedLimit/FinalizingResultsForPreApp/BTagVetoRegionForGraviton/UNBLINDED_RESULTS/Run2_unblinded_May5/workspaces_run2 parida
+source submit_condor_fullCLs_splitbatches.sh mass_grid_config_GravitonforApproval.txt /afs/hep.wisc.edu/user/parida/public/HHbbtt_Analysis_Scripts/StatisticalToolsCombine/CMSSW_11_3_4/src/HiggsAnalysis/CombinedLimit/FinalizingResultsForPreApp/BTagVetoRegionForGraviton/UNBLINDED_RESULTS/Run2_unblinded_Oct1_2025_preCWR/workspaces_run2 parida
 ```
 
-### Note 1 : "/afs/hep.wisc.edu/user/parida/public/HHbbtt_Analysis_Scripts/StatisticalToolsCombine/CMSSW_11_3_4/src/HiggsAnalysis/CombinedLimit/FinalizingResultsForPreApp/BTagVetoRegionForGraviton/UNBLINDED_RESULTS/Run2_unblinded_May5/workspaces_run2" - this is the location where the workspaces for full run-2 cards are located on UWLOGIN for spin-2. They will be scp to lxplus by the bash script.
+### Note 1 : "/afs/hep.wisc.edu/user/parida/public/HHbbtt_Analysis_Scripts/StatisticalToolsCombine/CMSSW_11_3_4/src/HiggsAnalysis/CombinedLimit/FinalizingResultsForPreApp/BTagVetoRegionForGraviton/UNBLINDED_RESULTS/Run2_unblinded_Oct1_2025_preCWR/workspaces_run2" - this is the location where the workspaces for full run-2 cards are located on UWLOGIN for spin-2. They will be scp to lxplus by the bash script.
 
 ### Note 2: Although all the workspace files will be copied from UW, only the "UNCOMMENTED" mass points from "mass_grid_config_GravitonforApproval.txt" will be run
 
